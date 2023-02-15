@@ -35,3 +35,12 @@ For the submission: submit your solution in an **R Markdown file** and (just for
 |-----------------|------------------------------------|
 | Andres Gonzalez | <https://github.com/Gandres16/HW3> |
 | Evan Brehman    | <https://github.com/evan-behrens>                                  |
+
+I made 1 successfull request and that was from [evan respository]<https://github.com/evan-behrens>.
+I succesfully accepted one pull request from [evan respository]<https://github.com/evan-behrens>.
+
+## A list on how make git/github easier to work with
+1. Focus on learning one thing at a time rather than a trying to learn everything at once
+2. Practice doing some basic commands to get the hang of things.
+3. google is a big help when you run into trouble.
+
