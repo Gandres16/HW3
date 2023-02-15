@@ -33,5 +33,5 @@ For the submission: submit your solution in an **R Markdown file** and (just for
 
 | Members         | Links |
 |-----------------|-------|
-| Andres Gonzalez |link: <https:       |
+| Andres Gonzalez |link: <[git hub](https://github.com/Gandres16/HW3)|
 | Evan Brehman    |       |
