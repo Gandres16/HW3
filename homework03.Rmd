@@ -31,14 +31,7 @@ Note: your submission is supposed to be fully reproducible, i.e. the TA and I wi
 
 For the submission: submit your solution in an **R Markdown file** and (just for insurance) submit the corresponding html (or Word) file with it.
 
-<<<<<<< HEAD
 | Members         | Links                              |
 |-----------------|------------------------------------|
 | Andres Gonzalez | <https://github.com/Gandres16/HW3> |
-| Evan Brehman    |                                    |
-=======
-| Members         | Links |
-|-----------------|-------|
-| Andres Gonzalez |link: <[git hub](https://github.com/Gandres16/HW3)|
-| Evan Brehman    |       |
->>>>>>> 88a0f5cb9ec646befeb6163a628dacddcd75de11
+| Evan Brehman    | <https://github.com/evan-behrens>                                  |
