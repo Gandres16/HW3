@@ -7,6 +7,7 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
 ```
 
 #### Due: 2/17/2022 before 11:59pm. Submit in Canvas (file upload).
@@ -34,13 +35,43 @@ For the submission: submit your solution in an **R Markdown file** and (just for
 | Members         | Links                              |
 |-----------------|------------------------------------|
 | Andres Gonzalez | <https://github.com/Gandres16/HW3> |
-| Evan Brehman    | <https://github.com/evan-behrens>                                  |
+| Evan Brehman    | <https://github.com/evan-behrens>  |
 
-I made 1 successfull request and that was from [evan respository]<https://github.com/evan-behrens>.
-I succesfully accepted one pull request from [evan respository]<https://github.com/evan-behrens>.
+I made 1 successfull request and that was from [evan respository]<https://github.com/evan-behrens>. I succesfully accepted one pull request from [evan respository]<https://github.com/evan-behrens>.
 
 ## A list on how make git/github easier to work with
-1. Focus on learning one thing at a time rather than a trying to learn everything at once
-2. Practice doing some basic commands to get the hang of things.
-3. google is a big help when you run into trouble.
 
+1.  Focus on learning one thing at a time rather than a trying to learn everything at once
+2.  Practice doing some basic commands to get the hang of things.
+3.  google is a big help when you run into trouble.
+
+```{r}
+life5060 <- read.csv("https://raw.githubusercontent.com/yumouqiu/DS202-Spring2023/main/Lecture1_collaborative-environment/data/gapminder-5060.csv")
+head(life5060)
+dim(life5060)
+```
+
+```{r}
+canada <- life5060 %>% filter(country == "Canada")
+head(canada)
+dim(canada)
+```
+
+Draw a line for the life expectancy in Canada
+```{r}
+canada %>% 
+  ggplot(aes(x = year, y = lifeExp)) +
+  geom_line()
+```
+
+```{r}
+canada %>% filter(year == 1957)
+canada_fixed <- canada %>% mutate(
+  lifeExp = replace(lifeExp, year==1957, 69.96)  
+)
+canada_fixed
+```
+
+```{r}
+canada_fixed %>% ggplot(aes(x = year, y = lifeExp)) + geom_line()
+```
