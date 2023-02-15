@@ -73,5 +73,5 @@ canada_fixed
 ```
 
 ```{r}
-canada_fixed %>% ggplot(aes(x = year, y = lifeExp)) + geom_line()
+canada_fixed %>% ggplot(aes(x = gdpPercap, y = lifeExp)) + geom_line()
 ```
