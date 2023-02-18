@@ -58,6 +58,7 @@ dim(canada)
 ```
 
 Draw a line for the life expectancy in Canada
+
 ```{r}
 canada %>% 
   ggplot(aes(x = year, y = lifeExp)) +
@@ -75,3 +76,9 @@ canada_fixed
 ```{r}
 canada_fixed %>% ggplot(aes(x = gdpPercap, y = lifeExp)) + geom_line()
 ```
+
+3.  I think that data science to me means the science of data itself. Data science is everything from analyzing data to making graphs with the data. Data science is taking data from a chart and determining what the data means. <https://c8.alamy.com/comp/2C4DNBF/finger-touching-tablet-with-web-technology-icons-and-data-science-inscription-web-technology-concept-2C4DNBF.jpg> some examples of data sciene would be
+
+-   demanding prediction for manafacturing industry
+-   Customer analytics in retail industry
+-   Recommendation system in marketing
